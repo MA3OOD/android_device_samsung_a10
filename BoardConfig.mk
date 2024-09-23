@@ -1,4 +1,4 @@
-DEVICE_PATH := device/samsung/a10
+DEVICE_PATH := device/samsung
 
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := a10,a10dd
