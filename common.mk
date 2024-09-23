@@ -1,4 +1,4 @@
-DEVICE_PACKAGE_OVERLAYS += device/samsung/a10/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/overlay
 
 TARGET_BOARD_CAMERA_COUNT := 2
 TARGET_BOARD_HAS_FP := false
