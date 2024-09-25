@@ -1,7 +1,7 @@
-DEVICE_PATH := device/samsung
+DEVICE_PATH := device/samsung/a10
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := a10,a10dd
+TARGET_OTA_ASSERT_DEVICE := a10
 
 # Kernel
 TARGET_KERNEL_CONFIG := exynos7885-a10_defconfig
@@ -19,6 +19,6 @@ BOARD_VENDORIMAGE_PARTITION_SIZE   := 394264576
 VENDOR_SECURITY_PATCH := 2021-12-01
 
 # Inherit common board flags
-include device/samsung/universal7885-common/BoardConfigCommon.mk
+include device/samsung/a10/universal7885-common/BoardConfigCommon.mk
 
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
