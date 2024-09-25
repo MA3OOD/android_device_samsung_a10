@@ -1,4 +1,4 @@
-COMMON_PATH := device/samsung/universal7885-common
+COMMON_PATH := device/samsung/a10/universal7885-common
 
 BOARD_VENDOR := samsung
 
@@ -78,7 +78,7 @@ BOARD_USES_METADATA_PARTITION := true
 TARGET_KEYMASTER_VARIANT := samsung
 
 # HIDL
-include device/samsung/universal7885-common/configs/vintf/manifest.mk
+include device/samsung/a10/universal7885-common/configs/vintf/manifest.mk
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 37748736
