@@ -1,11 +1,11 @@
-DEVICE_PACKAGE_OVERLAYS += device/samsung/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/a10/overlay
 
 TARGET_BOARD_CAMERA_COUNT := 2
 TARGET_BOARD_HAS_FP := false
 TARGET_SOC := exynos7884B
 
 # Inherit common device configuration
-$(call inherit-product, device/samsung/universal7885-common/universal7885-common.mk)
+$(call inherit-product, device/samsung/a10/universal7885-common/universal7885-common.mk)
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
