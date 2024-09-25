@@ -3,4 +3,4 @@ if [ ! -e .repo/local_manifests/eureka_deps.xml ]; then
 	echo "Run repo sync again"
 fi
 
-python3 device/samsung/universal7885-common/generate_product_makefiles.py
+python3 device/samsung/a10/universal7885-common/generate_product_makefiles.py
