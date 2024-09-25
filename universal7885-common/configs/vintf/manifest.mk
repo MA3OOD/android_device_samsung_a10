@@ -1,4 +1,4 @@
-MANIFEST_PATH := device/samsung/universal7885-common/configs/vintf
+MANIFEST_PATH := device/samsung/a10/universal7885-common/configs/vintf
 
 DEVICE_MANIFEST_FILE := $(MANIFEST_PATH)/manifest.xml
 
